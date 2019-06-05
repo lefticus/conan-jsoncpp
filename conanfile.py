@@ -21,7 +21,7 @@ class JsoncppConan(ConanFile):
 
     options = {
         "shared"              : [True, False],
-        "fPIC"             : [True, False]
+        "fPIC"                : [True, False]
     }
     default_options = {
         "shared": False,
